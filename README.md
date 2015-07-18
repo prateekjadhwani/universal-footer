@@ -99,6 +99,10 @@ universal-footer {
 
 ### More Examples
 
-Using `universal-footer` to build github style footer. See [github-footer example](https://github.com/prateekjadhwani/universal-footer/blob/master/examples/github-footer.html).
+Using `universal-footer` to build GitHub style footer. See [github-footer example](https://github.com/prateekjadhwani/universal-footer/blob/master/examples/github-footer.html).
 
 ![Github Screenshot](examples/github-screenshot.png)
+
+Using `universal-footer` to build YouTube style footer. See [youtube-footer example](https://github.com/prateekjadhwani/universal-footer/blob/master/examples/youtube-footer.html).
+
+![Github Screenshot](examples/youtube-screenshot.png)
