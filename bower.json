@@ -1,0 +1,29 @@
+{
+  "name": "universal-footer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/prateekjadhwani/universal-footer",
+  "authors": [
+    "Prateek Jadhwani <prateekjadhwani@users.noreply.github.com>"
+  ],
+  "description": "A Polymer 1.0 based footer element to support web apps",
+  "main": "universal-footer.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "element",
+    "universal",
+    "footer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.0.7",
+    "paper-material": "PolymerElements/paper-material#~1.0.1"
+  }
+}

@@ -1,0 +1,38 @@
+<link rel="import" href="../polymer/polymer.html" />
+<link rel="import" href="../paper-material/paper-material.html" />
+<link rel="import" href="../font-roboto/roboto.html" />
+
+<dom-module id="universal-footer">
+	<style>
+		:host {
+			background: var(--universal-footer-background-color, #F8BBD0);
+			bottom: 0;
+			color: var(--universal-footer-text-color, #C2185B);
+			display: block;
+			font-family: 'Roboto', sans-serif;
+			position: absolute;
+			width: 100%;
+		}
+		paper-material {
+			margin: 20px;
+		}
+		.copyright {
+			text-indent: 20px;
+		}
+		.copyright::before {
+			content: '©';
+			display: inline;
+			position: absolute;
+			left: -15px;
+			top: 0px;
+		}
+	</style>
+	<template>
+		<paper-material elevation="0" class="layout vertical">
+			<div class="flex copyright">
+				<content select="[copyright]"></content>
+			</div>
+		</paper-material>
+	</template>
+</dom-module>
+<script src="universal-footer.js"></script>
