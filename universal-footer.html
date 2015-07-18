@@ -16,21 +16,39 @@
 		paper-material {
 			margin: 20px;
 		}
-		.copyright {
+		.copyright-center {
 			text-indent: 20px;
+			text-align: center;
+			font-size: 10px;
 		}
-		.copyright::before {
-			content: '©';
-			display: inline;
-			position: absolute;
-			left: -15px;
-			top: 0px;
+		.multicol > ::content div {
+			display: flex;
+		}
+		.multicol > ::content [col] {
+			flex: 1;
+			display: inline-block;
+			margin: 20px auto;
+		}
+		.multicol > ::content [row] {
+			display: block;
+		}
+		.multicol > ::content [left] {
+			text-align: left;
+		}
+		.multicol > ::content [right] {
+			text-align: right;
+		}
+		.multicol > ::content [center] {
+			text-align: center;
 		}
 	</style>
 	<template>
 		<paper-material elevation="0" class="layout vertical">
-			<div class="flex copyright">
-				<content select="[copyright]"></content>
+			<div class="flex multicol">
+				<content select="[multicol]"></content>
+			</div>
+			<div class="flex copyright-center">
+				<content select="[copyright-center]"></content>
 			</div>
 		</paper-material>
 	</template>
