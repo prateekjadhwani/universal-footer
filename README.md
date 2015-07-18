@@ -100,3 +100,5 @@ universal-footer {
 ### More Examples
 
 Using `universal-footer` to build github style footer. See [github-footer example](https://github.com/prateekjadhwani/universal-footer/blob/master/examples/github-footer.html).
+
+![Github Screenshot](examples/github-screenshot.png)
