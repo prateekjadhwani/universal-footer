@@ -6,15 +6,14 @@
 	<style>
 		:host {
 			background: var(--universal-footer-background-color, #F8BBD0);
-			bottom: 0;
 			color: var(--universal-footer-text-color, #C2185B);
 			display: block;
 			font-family: 'Roboto', sans-serif;
-			position: absolute;
-			width: 100%;
+			width: auto;
+			padding: var(--universal-footer-padding, 20px);
 		}
 		paper-material {
-			margin: 20px;
+			margin: 0px;
 		}
 		.copyright-center {
 			text-indent: 20px;
@@ -29,7 +28,7 @@
 			flex: 1;
 			display: inline-block;
 			margin: 20px auto;
-			min-width: 150px;
+			min-width: 200px;
 		}
 		.multicol > ::content [row] {
 			display: block;

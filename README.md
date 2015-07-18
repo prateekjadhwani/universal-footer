@@ -80,6 +80,14 @@ universal-footer {
 }
 ```
 
+To change the default footer padding:
+
+```css
+universal-footer {
+  --universal-footer-padding: 40px;
+}
+```
+
 To change the default margin-top or color of a title in a column:
 
 ```css
