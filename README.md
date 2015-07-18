@@ -44,7 +44,7 @@ But, you can also combile multicols and copyright.
 </universal-footer>
 ```
 
-And each column can have multiple rows with one or more titles
+And each column can have multiple rows with one or more titles.
 
 ```html
 <universal-footer>
