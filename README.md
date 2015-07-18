@@ -96,3 +96,7 @@ universal-footer {
   --universal-footer-col-title-color: #C2185B;
 }
 ```
+
+### More Examples
+
+Using `universal-footer` to build github style footer. See [github-footer example](https://github.com/prateekjadhwani/universal-footer/blob/master/examples/github-footer.html).
