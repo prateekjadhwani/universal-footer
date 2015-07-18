@@ -24,12 +24,14 @@
 			display: flex;
 			flex-flow: row wrap;
 		}
+		
 		.multicol > ::content [col] {
 			flex: 1;
 			display: inline-block;
 			margin: 20px auto;
 			min-width: 200px;
 		}
+		
 		.multicol > ::content [row] {
 			display: block;
 		}
@@ -47,6 +49,12 @@
 			font-size: 20px;
 			margin-top: var(--universal-footer-col-title-margin-top, 20px);
 			color: var(--universal-footer-col-title-color, #C2185B);
+		}
+		.multicol > ::content [multicol] > [col] {
+			min-width: 10px;
+			margin: 0;
+			margin-right: 10px;
+			flex: auto;
 		}
 	</style>
 	<template>

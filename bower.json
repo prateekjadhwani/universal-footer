@@ -24,7 +24,10 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#~1.0.7",
-    "paper-material": "PolymerElements/paper-material#~1.0.1"
+    "paper-material": "PolymerElements/paper-material#~1.0.1",
+    "iron-icon": "PolymerElements/iron-icon#~1.0.2",
+    "iron-iconset": "PolymerElements/iron-iconset#~1.0.2",
+    "iron-icons": "PolymerElements/iron-icons#~1.0.3"
   },
   "repository": {
     "type": "git",
