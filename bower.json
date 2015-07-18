@@ -25,5 +25,9 @@
   "dependencies": {
     "polymer": "Polymer/polymer#~1.0.7",
     "paper-material": "PolymerElements/paper-material#~1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prateekjadhwani/universal-footer.git"
   }
 }
