@@ -26,8 +26,8 @@ To add a multi-column content, just add a `multicol` attribute to the `universal
   <div multicol>
 	  <div col>First Column</div>
 		<div col center>Middle Column with center aligned</div>
-		<div col right>Last Column Aligned right</div>
-	</div>
+    <div col right>Last Column Aligned right</div>
+  </div>
 </universal-footer>
 ```
 
@@ -36,11 +36,11 @@ But, you can also combile multicols and copyright.
 ```html
 <universal-footer>
   <div multicol>
-	  <div col>First Column</div>
-		<div col center>Middle Column with center aligned</div>
-		<div col right>Last Column Aligned right</div>
-	</div>
-	<div copyright>2015 Prateek Jadhwani</div>
+    <div col>First Column</div>
+    <div col center>Middle Column with center aligned</div>
+    <div col right>Last Column Aligned right</div>
+  </div>
+  <div copyright>2015 Prateek Jadhwani</div>
 </universal-footer>
 ```
 
