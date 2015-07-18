@@ -40,7 +40,25 @@ But, you can also combile multicols and copyright.
     <div col center>Middle Column with center aligned</div>
     <div col right>Last Column Aligned right</div>
   </div>
-  <div copyright>2015 Prateek Jadhwani</div>
+  <div copyright>© 2015 Prateek Jadhwani</div>
+</universal-footer>
+```
+
+And each column can have multiple rows with one or more titles
+
+```html
+<universal-footer>
+  <div multicol>
+    <div col>
+      <div row center title>Row Title</div>
+      <div row center>stuff</div>
+      <div row title center>More Row Title</div>
+      <div row center>more stuff</div>
+    </div>
+    <div col center>Middle Column with center aligned</div>
+    <div col right>Last Column Aligned right</div>
+  </div>
+  <div copyright>© 2015 Prateek Jadhwani</div>
 </universal-footer>
 ```
 
@@ -59,5 +77,14 @@ To change the default text color in footer:
 ```css
 universal-footer {
   --universal-footer-text-color: #f8bbd0;
+}
+```
+
+To change the default margin-top or color of a title in a column:
+
+```css
+universal-footer {
+  --universal-footer-col-title-margin-top: 40px;
+  --universal-footer-col-title-color: #C2185B;
 }
 ```

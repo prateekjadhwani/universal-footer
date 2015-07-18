@@ -23,11 +23,13 @@
 		}
 		.multicol > ::content div {
 			display: flex;
+			flex-flow: row wrap;
 		}
 		.multicol > ::content [col] {
 			flex: 1;
 			display: inline-block;
 			margin: 20px auto;
+			min-width: 150px;
 		}
 		.multicol > ::content [row] {
 			display: block;
@@ -40,6 +42,12 @@
 		}
 		.multicol > ::content [center] {
 			text-align: center;
+		}
+		.multicol > ::content [title] {
+			font-weight: bold;
+			font-size: 20px;
+			margin-top: var(--universal-footer-col-title-margin-top, 20px);
+			color: var(--universal-footer-col-title-color, #C2185B);
 		}
 	</style>
 	<template>
