@@ -15,7 +15,7 @@ As we all know a footer requires a bunch of predefined stuff like copyright text
 
 ```html
 <universal-footer>
-  <div copyright>2015 Prateek Jadhwani</div>
+  <div copyright-center>2015 Prateek Jadhwani</div>
 </universal-footer>
 ```
 
@@ -40,7 +40,7 @@ But, you can also combile multicols and copyright.
     <div col center>Middle Column with center aligned</div>
     <div col right>Last Column Aligned right</div>
   </div>
-  <div copyright>© 2015 Prateek Jadhwani</div>
+  <div copyright-center>© 2015 Prateek Jadhwani</div>
 </universal-footer>
 ```
 
@@ -58,7 +58,7 @@ And each column can have multiple rows with one or more titles.
     <div col center>Middle Column with center aligned</div>
     <div col right>Last Column Aligned right</div>
   </div>
-  <div copyright>© 2015 Prateek Jadhwani</div>
+  <div copyright-center>© 2015 Prateek Jadhwani</div>
 </universal-footer>
 ```
 
